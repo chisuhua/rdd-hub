@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: E2E Breaking Test 0011-1788458600
+  version: 1.0.0
+paths:
+  /e2e/login:
+    post:
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email_field, password_field, device_fingerprint_field]
+              properties:
+                email_field: {type: string}
+                password_field: {type: string}
+                device_fingerprint_field: {type: string}
