@@ -1,0 +1,1 @@
+openapi: 3.0.0\ninfo:\n  title: E2E Detect Test 2\n  version: 1.0.0\nx-owners: [chisuhua/test-repo-2, chisuhua/test-repo-3]\npaths:\n  /e2e/detect2:\n    get:\n      responses:\n        '200':\n          description: ok\n
